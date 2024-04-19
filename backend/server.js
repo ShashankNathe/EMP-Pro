@@ -20,7 +20,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(cors({
   credentials: true,
-  origin: ['https://emp-pro-frontend.vercel.app/'],
+  origin: ['*'],
 }));
 
 app.use('/api/users', userRoutes);
