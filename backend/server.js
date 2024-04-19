@@ -20,7 +20,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(cors({
   credentials: true,
-  origin: ['https://vercel.com/shashanknathes-projects/emp-pro-server/2QwhFHKcQ889x6kw7a5YrTwLtWCe'],
+  origin: ['https://emp-pro-frontend.vercel.app'],
 }));
 
 app.use('/api/users', userRoutes);
